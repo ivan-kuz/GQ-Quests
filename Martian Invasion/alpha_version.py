@@ -20,7 +20,7 @@ def first_stage():
             if second_input == "fire":
                 print("It great that you figured it out! Your intellect made the Sphinks feel so ashamed that she exiled herself!")
                 def left2():
-                    third_input = input("You find out that, by getting rid of the Sphinks, saved the city of Totusmortuus from death. The city's inhabitants want you to become thier king. Do you accept their offer?")
+                    third_input = input("You find out that, by getting rid of the Sphinks, saved the city of Totusmortuus from death. The city's inhabitants want you to become king. Do you accept the offer?")
                     if third_input in ["Yes", "yes", "accept", "Accept"]:
                         print("Oh no. You forgot that 'totus mortuus' in Latin means 'completely dead'! The city's inhabitants are actually dead Martians. They kill you and you become one of them.")
                         print("GAME OVER!")
@@ -132,7 +132,7 @@ def second_stage():
         def restaurant1():
             fifth_input = input("You realise that you have to do something urgently. Do you hide under the piano or do you hold on to it?")
             fifth_input.lower()
-            if fifth_input == "hide under the piano" or fifth_input == "hide under it":
+            if fifth_input == "hide under the piano" or fifth_input == "hide under it" or fifth_input == "hide":
                 print("It's great you remembered this from World War Two history - the bomb hits the piano, but you don't get a single scar")
                 def restaurant2():
                     sixth_input = input("Now you can go what you were planning to do before - report info to the 'Head Earthling'. But you realise that you have forgotten it (and LOOOOADS of other things as well) and you should visit the doctor. If the name your condition correctly, the doctor will cure you. If you don't you'll become insane.")
@@ -206,6 +206,7 @@ def second_stage():
                             bar2()
                     else:
                         print("Sorry, you an either pick 'yes' or 'no'")
+                        bar2()
                 bar2()
             elif fifth_input in ["cesium shield","cesium"]:
                 print("Oh no! You forgot from your chemistry lessons that cesium is one of the most softest metals on Earth! The Martian slices the shield and you with it using his sword. You die.")
@@ -278,11 +279,11 @@ def final_stage():
               print("Sorry, please pick either '12 gauge' or '7.62'.")
               first2()
           first2()
-        elif eight_input == "r":
+        elif eighth_input == "r":
           start()
         elif eighth_input == "q":
           print("GAME OVER!")
-        elif eigth_input == "i":
+        elif eighth_input == "i":
           if i == set():
             print("Your inventory is empty")
             first1()
