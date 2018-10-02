@@ -5,7 +5,7 @@ i = set()#Inventory
 def start():
     print("---------------------------------------------------------")
     i = set()#Inventory
-    print("Welcome to my text quest game!")
+    print("Welcome to my text quest, 'Martian Invasion'! To check out more cool quests, please visit quests.aquaesulis.gq.")
     print("At any point in the game press q to quit, r to restart and i to see your inventory")
     time.sleep(2)
     first_stage()
