@@ -8,4 +8,5 @@ And when in doubt, don't hesitate to contact me at ivanus@gqempire.gq.
 ***
 
 *Hail the Fathers!*
-*Ivanus Kuzminus, Founding Father of the GQEmpire
+
+*Ivanus Kuzminus, Founding Father of the GQEmpire*
